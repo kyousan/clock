@@ -15,7 +15,8 @@ public class Args {
     private boolean showHelp = false;
 
     @Option(name="-hh", aliases="--more-help", usage="print detail help message.")
-    private boolean showMoreHelp = false;
+  
+	private boolean showMoreHelp = false;
 
     @Option(name="-v", aliases="--version", usage="show version and quit.")
     private boolean showVersion = false;
